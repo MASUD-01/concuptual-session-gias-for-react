@@ -13,7 +13,7 @@ const Singalproduct = (props) => {
                 <h1>{props.product.title.slice(0, 20)}</h1>
                 <div className='d-flex justify-content-around'>
                     <button onClick={setCartCount} className='btn btn-success'>Add to cart</button>
-                    <button className='btn btn-danger'>delete</button>
+                    <button className='btn btn-danger'>deletes</button>
                     <ModalReact product={props.product}></ModalReact>
                     {/* <button className='btn btn-info'>details</button> */}
                 </div>
